@@ -1,14 +1,19 @@
 var quotes = [
-	'FUN FACT: I literally missed all of my lectures this week to avoid people spoiling Endgame.',
-	'FUN FACT: If you are reading this, know that I struggled making the damn Click Me! button work. At one point, I took a fat nap to sleep away the frustrations of Javascript.',
-	'FUN FACT: I am a picky eater and dislike most vegetables, especially mushrooms. One time a friend tried to sneak mushrooms onto my pizza. Needless to say, I no longer trust her around my food.',
-	'FUN FACT: I am lactose intolerant but I will continue to consume milk, cheese, and ice cream until the day my family pries the dairy goods out of my cold, dead hands.',
-	'FUN FACT: Anime easily influences my life. Especially the memes. It is difficult to explain to friends why I flinch when Another One Bites the Dust plays nowadays.',
-	'FUN FACT: Any sad animal-related videos/movies makes me cry. A lot. Dogs Purpose ALONE made me cry ten times on separate occasions (dont get me started on Hachi).',
-	'FUN FACT: I got my laptop for free from a raffle. My cousin almost won, but Fate has chosen ME as the victor.',
-	'FUN FACT: I am running out of fun facts.',
-	'FUN FACT: I AM a banana slug; yellow on the outside, white on the inside, and overall an unathletic procrastinator.',
-	'FUN FACT: I get extremely competitive with friends in MarioKart. On the first lap, its all fun and games until someone decides to be a little bitch and chuck a red shell at me. By the end of the third lap, we are no longer friends.'
+        'McDonald’s once made bubblegum-flavored broccoli',
+	'Some fungi create zombies, then control their minds',
+	'Venus spins clockwise. It’s the only planet that does!',
+	'Wilma Rudolph (who set the world record in 1960 for 100, 200 and 4x100-meter relay) had polio, scarlet fever and pneumonia as a child, leading doctors to believe she’d never walk again.',
+	'Humans are the Only Animals That Enjoy Spicy Foods. They Are Also the Only Animals Whose Brains Shrink',
+	'Chewing Gum After a Meal Reduces Heartburn',
+	"Bees are able to detect bombs with their tongues. So when the bees' handler sees it extend its proboscis, they know they've got a bomb on their hands.",
+	"Tear ducts don't fully develop in infants until they are one to three months old, making it impossible for babies to shed actual tears.",
+	'The cigarette lighter was invented before the match stick.',
+	'The longest music performance began on 5th September 2001 in a church in Germany and will end in 2640',
+	"The Tanganyika laughter epidemic lasted for around 6 to 18 months. The laughter started in a village school in Tanzania (then Tanganyika) with 3 girls. In the end, it affected over a 1000 people. It also made some people cry, scream and faint before eventually dying out.",
+	"The small percentage of static you see on 'dead' TV channels is actually residual radiation from the Big Bang.",
+	"Due to shortage of metal, the Oscars were made of painted plaster during World War II.",
+	"There are more possible iterations in a game of chess than there are atoms in the known universe.",
+	"The China Highway 110 traffic jam lasted for more than 10 days. Cars moved at the speed of 0.6 miles per day."
 ]
 function newQuote() {
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
